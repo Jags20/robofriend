@@ -38,8 +38,8 @@ import "./App.css";
     setSearchfield(event.target.value)
   }
 
-  {
-   const filteredRobots =robots.filter(robot =>{
+  
+  const filteredRobots =robots.filter( robot => {
     return robot.name.toLowerCase().includes(searchfield.toLowerCase())
    })
    return !robots.length ?
@@ -53,7 +53,7 @@ import "./App.css";
           </Scroll>
         </div>
     );
-  }
+  
 }
 
 export default App;
