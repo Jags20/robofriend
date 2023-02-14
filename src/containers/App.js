@@ -33,9 +33,9 @@ import "./App.css";
   //   .then(users=> this.setState({robots: users}));
   // }
 
-  const onSearchChange =(event) => {
+  const onSearchChange =(e) => {
     // console.log(event.target.value);
-    setSearchfield(event.target.value)
+    setSearchfield(e.target.value)
   }
 
   
